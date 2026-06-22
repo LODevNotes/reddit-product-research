@@ -49,10 +49,10 @@ thread <post_id|url> [--commentLimit N] [--depth N] [--includeDeleted true|false
 find --subreddits "a,b" [--query "..."] [--include "k1,k2"] [--exclude "k3"] [--maxResults N]
 ```
 
-If your network requires a proxy:
+If your network requires a proxy, pass your own proxy URL:
 
 ```bash
-node scripts/reddit-readonly.mjs search all "camping storage" --limit 10 --proxy http://127.0.0.1:7890
+node scripts/reddit-readonly.mjs search all "camping storage" --limit 10 --proxy <proxy-url>
 ```
 
 ## Research Workflow
