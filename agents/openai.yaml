@@ -1,0 +1,3 @@
+display_name: Reddit Product Research
+short_description: Turn Reddit posts and comments into Amazon product opportunity insights.
+default_prompt: Use Reddit JSON from browser or the bundled read-only script to analyze user pain points, buying intent, and product opportunities in Chinese with source links.
