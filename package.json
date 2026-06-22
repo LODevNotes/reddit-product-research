@@ -1,0 +1,21 @@
+{
+  "name": "reddit-product-research",
+  "version": "0.1.0",
+  "description": "Read-only Reddit JSON helper and Codex skill for Amazon product opportunity research.",
+  "type": "module",
+  "bin": {
+    "reddit-product-research": "./scripts/reddit-readonly.mjs"
+  },
+  "scripts": {
+    "reddit": "node scripts/reddit-readonly.mjs",
+    "smoke": "node scripts/reddit-readonly.mjs"
+  },
+  "keywords": [
+    "reddit",
+    "product-research",
+    "amazon",
+    "market-research",
+    "codex-skill"
+  ],
+  "license": "MIT"
+}
